@@ -1,32 +1,24 @@
-# Prerequisites
-*.d
+# PlatformIO
+.pio/
+.vscode/
+libdeps/
+*.elf
+*.bin
+*.hex
+*.map
+*.csv
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Python/PlatformIO caches
+__pycache__/
+*.pyc
+*.pyo
 
-# Precompiled Headers
-*.gch
-*.pch
+# macOS & Linux
+.DS_Store
+.Trashes
+*.swp
+*.swo
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Windows
+Thumbs.db
+ehthumbs.db
